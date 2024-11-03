@@ -1,6 +1,6 @@
 # AutoReplyAI - Automatischer E-Mail-Assistent
 
-AutoReplyAI ist ein KI-gestützter E-Mail-Assistent, der automatisch auf eingehende E-Mails antwortet. Mit Hilfe der KI "4o-mini" generiert AutoReplyAI höfliche und professionelle Antworten und spart damit Zeit und Mühe bei der Bearbeitung von E-Mails.
+AutoReplyAI ist ein KI-gestützter E-Mail-Assistent, der automatisch auf eingehende E-Mails antwortet. Mit Hilfe der KI "gpt-3.5-turbo" generiert AutoReplyAI höfliche und professionelle Antworten und spart damit Zeit und Mühe bei der Bearbeitung von E-Mails.
 
 ## Features
 - **Automatische Antwort**: AutoReplyAI prüft ungelesene E-Mails und sendet automatisch eine Antwort basierend auf dem Inhalt der E-Mail.
@@ -22,9 +22,9 @@ AutoReplyAI ist ein KI-gestützter E-Mail-Assistent, der automatisch auf eingehe
 2. Erstellen Sie eine virtuelle Umgebung und installieren Sie die erforderlichen Python-Bibliotheken:
    ```sh
    python3 -m venv venv
-    source venv/bin/activate
-    pip install openai imaplib2
-    pip install python-dotenv
+   source venv/bin/activate
+   pip install openai imaplib2
+   pip install python-dotenv
    ```
 3. Setzen Sie die erforderlichen Umgebungsvariablen:
    - `EMAIL_ACCOUNT`: Ihre E-Mail-Adresse (z.B. von web.de).
@@ -49,3 +49,4 @@ Bitte achten Sie darauf, dass das Skript sensible Informationen wie E-Mail-Passw
 
 ## Lizenz
 Dieses Projekt ist unter der MIT-Lizenz lizenziert.
+
