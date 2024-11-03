@@ -21,7 +21,7 @@ AutoReplyAI ist ein KI-gestützter E-Mail-Assistent, der automatisch auf eingehe
    ```
 AutoReplyAI. Installieren Sie die erforderlichen Python-Bibliotheken:
    ```sh
-   pip install openai
+   pip install openai imaplib smtplib email
    ```
 3. Setzen Sie die erforderlichen Umgebungsvariablen:
    - `EMAIL_ACCOUNT`: Ihre E-Mail-Adresse (z.B. von web.de).
