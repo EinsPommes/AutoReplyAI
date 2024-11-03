@@ -5,6 +5,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import os
 import openai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 IMAP_SERVER = 'imap.web.de'
 SMTP_SERVER = 'smtp.web.de'
