@@ -16,8 +16,8 @@ AutoReplyAI ist ein KI-gestützter E-Mail-Assistent, der automatisch auf eingehe
 ## Installation
 1. Klonen Sie das Repository:
    ```sh
-   git clone https://github.com/username/kiramail.git
-   cd kiramail
+   git clone https://github.com/EinsPommes/AutoReplyAI.git
+   cd AutoReplyAI
    ```
 AutoReplyAI. Installieren Sie die erforderlichen Python-Bibliotheken:
    ```sh
@@ -31,7 +31,7 @@ AutoReplyAI. Installieren Sie die erforderlichen Python-Bibliotheken:
 ## Verwendung
 Führen Sie das Skript aus, um ungelesene E-Mails zu überprüfen und automatisch darauf zu antworten:
 ```sh
-python kiramail.py
+python autoreplyai.py
 ```
 Das Skript überprüft die E-Mail-Inbox und sendet eine automatisch generierte Antwort an den Absender jeder ungelesenen Nachricht.
 
